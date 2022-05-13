@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>NYSCEBONYI | HOME</title>
+    <meta name="description" content="Website for nysc ebonyi state, designed by maol tech +2348145338797 ">
+    <meta name="keywords" content="NYSC, EBONYI, MAOL TECH">
+    
+    <!-- start Favicon stuff -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2">
+    <link rel="manifest" href="/site.webmanifest?v=2">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=bORqnAnjbn" color="#0b66d1">
+    <link rel="shortcut icon" href="/favicon.ico?v=2">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=2">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=2">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2">
+    <!-- end Favicon stuff -->
+    
+
+    <link rel="stylesheet" type="text/css" href="assets/css/animations.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/fonteffects.css" media="all" />
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/base.css" rel="stylesheet">
+    <link href="assets/css/simplelightbox.min.css" rel="stylesheet">
+    <!--<link rel="stylesheet" type="text/css" href="style/style.css"> -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!--nav bar css-->
+        <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
+    <!--nav bar css close-->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script src="assets/js/jquery.visible.js"></script>
+    <script>
+        function init() {
+            window.addEventListener('scroll', function(e){
+                var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn = 47,
+                    header = document.querySelector("header");
+                if (distanceY > shrinkOn) {
+                    classie.add(header,"smaller");
+                } else {
+                    if (classie.has(header,"smaller")) {
+                        classie.remove(header,"smaller");
+                    }
+                }
+            });
+        }
+        window.onload = init();
+
+    </script>
+    
+    
+    
+    
+    <script>
+        (function ($) {
+            $.fn.visible = function (partial) {
+            var $t = $(this),
+            $w = $(window),
+            viewTop = $w.scrollTop(),
+            viewBottom = viewTop + $w.height(),
+            _top = $t.offset().top,
+            _bottom = _top + $t.height(),
+            compareTop = partial === true ? _bottom : _top,
+            compareBottom = partial === true ? _top : _bottom;
+            return compareBottom <= viewBottom && compareTop >= viewTop;
+          };
+        })(jQuery);
+
+        $(window).scroll(function() { ViewPortEvent(); });
+        $(window).on('load',ViewPortEvent);
+        
+        function ViewPortEvent() {
+           $(".animatein").each(function (i, el) {
+            var el = $(el);
+            if (el.visible(true)) {
+              el.addClass("visible");
+            } else {
+              //el.removeClass("visible");  // didn't want it animating more than once
+            }
+          });
+        }
+    </script>
+    
+    
+    
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '2190388707898206');
+      fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=2190388707898206&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Google Analytics - Global site tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123885609-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-123885609-1');
+    </script>
+    <!-- End Google Code -->
+	  
+<!-- Global site tag (gtag.js) - Google Ads: 429080212 (Added February 08, 2021) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-429080212"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-429080212');
+</script>
+ <!-- Event snippet for Website lead conversion page (Added February 08, 2021) -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-429080212/Uf_8CO6SgPUBEJT9zMwB'});
+</script>
+
+  </head>
+
+  <body onload="document.getElementById('loginframe').src = document.getElementById('loginframe').src;">
+    <header>
+        <div class="logo">
+            <img src="assets/img/NYSCEBONYILOGO2.png" alt="">
+            <a href="" class="header__logo">NYSC | EBONYI</a>
+        </div>
+        <nav class="nav__bar" id="nav-menu"> 
+        <ion-icon name="close-outline" class="header__close" id="close-menu"></ion-icon>
+
+        <ul class="nav__list">
+            <li class="nav__item"><a href="" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="" class="nav__link">NYSC PLEDGES AND ANTHEM</a></li>
+            <li class="nav__item"><a href="" class="nav__link">NYSC EBONYI OFFICERS</a></li>
+            <li class="nav__item"><a href="" class="nav__link">STATE COORDINATOR STATMENT</a></li>
+            <li class="nav__item"><a href="" class="nav__link">NYSC</a></li>
+        </ul>
+        </nav>
+
+
+            <ion-icon name="menu-outline" class="header__toggle" id="toggle-menu"></ion-icon>
+    </header>
+
+   <div class="section section_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mainheader">
+                        <div class="downarrow"><i class="material-icons">keyboard_arrow_down</i></div>
+                        <h1 class="headertext">Welcome to NYSC EBONYI STATE</h1>
+                        
+                        <h3 class="headersubtext">
+                            Descipline is our watch word<br>
+                            We serve the state of ebonyi with our might</h3>
+                        <div class="largebutton callusmobile"><a rel="nofollow" href="tel:+234-803-801-7249" class="btn btn-lg btn-primary">Call Us: 0803-801-7249</a></div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <div class="section iconrow">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-4 linkfollow" onclick="location.href='website_design_services.php'">
+                    <div class="iconrow_icon"><i class="material-icons">color_lens</i></div>
+                    <div class="iconrow_words">NYSC pledges<br>and anthem</div>
+                </div>
+                <div class="col-md-2 col-sm-4 linkfollow" onclick="location.href='search_engine_success.php'">
+                    <div class="iconrow_icon"><i class="material-icons">trending_up</i></div>
+                    <div class="iconrow_words">State Coordinator<br>Statement</div>
+                </div>
+                <div class="col-md-2 col-sm-4 linkfollow" onclick="location.href='online_marketing.php'">
+                    <div class="iconrow_icon"><i class="material-icons">share</i></div>
+                    <div class="iconrow_words">General  overview<br>of NYSC Schemes</div>
+                </div>
+                <div class="col-md-2 col-sm-4 linkfollow" onclick="location.href='online_marketing.php#emailmarketing'">
+                    <div class="iconrow_icon"><i class="material-icons">email</i></div>
+                    <div class="iconrow_words">About <br>orientation camp</div>
+                </div>
+                <div class="col-md-2 col-sm-4 linkfollow" onclick="location.href='web_services.php'">
+                    <div class="iconrow_icon"><i class="material-icons">devices</i></div>
+                    <div class="iconrow_words">NYSC <br>Saed centre</div>
+                </div>
+                <div class="col-md-2 col-sm-4 linkfollow" onclick="location.href='web_services.php#domains'">
+                    <div class="iconrow_icon"><i class="material-icons">language</i></div>
+                    <div class="iconrow_words">NYSC code <br>of conduct</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content_left">
+                        <div class="imagewrap animatein fromleft">
+                            <img src="assets/img/aaa-pacificdentures.png" alt="Sample Site - Pacific Denture">
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="content_right animatein fromright">
+                        <h2 class="innerheadertext">State coordinator statment</h2>
+                        <p>type the some state coordinator statement here</p>
+                        <p>type the some state coordinator statement here<a href="google.com/#"> more ...</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+     <div class="section section_grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content_left animatein fromleft">
+                        <h2 class="innerheadertext">NYSC Pledges and anthem</h2>
+                        <p>Nysc and anthem and Pledges in details  </p>
+					  <p>click the next link to get more details <a class="textlink" href="/parksville_website_design_services.php">moire</a>more <a class="textlink" href="/nanaimo_website_design_services.php">more in details</a> </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="content_right">
+                        <div class="imagewrap animatein fromright">
+                            <img src="assets/img/aaa-tighnamara.png" alt="Sample Site - Tigh Na Mara">
+                           </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div> 
+    
+     <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content_left">
+                        <div class="imagewrap animatein fromleft">
+                            <img src="assets/img/aaa-frankfairley.png" alt="Sample Site - Frank Fairley Realtor">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="content_right animatein fromright">
+                        <h2 class="innerheadertext">How We Can Help</h2>
+                        <p>how we can help the cor members coming to ebonyi&nbsp; what you should know about serving in ebonyi</p>
+                        <p>more details <a href="">click here for more>.</a></p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div> 
+
+
+    <div class="section section_black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content">
+                        <h2 class="innerheadertext" style="text-align:center;padding-top:0;">Bravenet Web Design and Marketing</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="content_black animatein grow" style="text-align:center;">
+                        <div class="index_icon"><i class="material-icons">view_quilt</i></div>
+                        <h4>NYSC UPDATES</h4>
+                        <p>list of news from nysc blog</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="content_black animatein grow" style="text-align:center;">
+                        <div class="index_icon"><i class="material-icons">equalizer</i></div>
+                        <h4></h4>
+					  <p>Our <a href="/search_engine_success.php" style="color:#ddd;">blog post</a> nysc ebonyi state blog update</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="content_black animatein grow" style="text-align:center;">
+                        <div class="index_icon"><i class="material-icons">people</i></div>
+                        <h4>contact us</h4>
+                        <p>contact us on through our social media platforom&nbsp;or through  phone number</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="content_black animatein grow" style="text-align:center;">
+                        <div class="index_icon"><i class="material-icons">devices</i></div>
+                        <h4>Emergency toll</h4>
+                        <p>police Emergency toll, incase of distress</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="content_black animatein grow" style="text-align:center;">
+                        <div class="index_icon"><i class="material-icons">contact_mail</i></div>
+                        <h4>Email Marketing</h4>
+                        <p>Our email marketing expertise will help you create effective email campaigns that result in sales.&nbsp; From customizable
+                            templates to automatic scheduling we do it all.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="content_black animatein grow" style="text-align:center;">
+                        <div class="index_icon"><i class="material-icons">storage</i></div>
+                        <h4>Web Hosting</h4>
+                        <p>Bravenet's world class secure website hosting, with custom domains and email hosting, guarantees 99.9% website uptime.&nbsp; We host
+                            over a million websites today.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="content_black animatein grow" style="text-align:center;">
+                        <div class="index_icon"><i class="material-icons">brush</i></div>
+                        <h4>Easy Editing</h4>
+                        <p>Our Content Management System enables you to easily make quick updates to your website.&nbsp; The easy website editor 
+                            and free stock image library make updating a breeze.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="content_black animatein grow" style="text-align:center;">
+                        <div class="index_icon"><i class="material-icons">alternate_email</i></div>
+                        <h4>Email Hosting</h4>
+                        <p>We provide secure and reliable email hosting with custom email addresses for all your domains.&nbsp; Our user-friendly
+                            email management system simplifies corporate email.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="content_black animatein grow" style="text-align:center;">
+                        <div class="index_icon"><i class="material-icons">timeline</i></div>
+                        <h4>Analyze &amp; Optimize</h4>
+                        <p>All our websites include build-in statistics that make it simple to monitor and analyze traffic and to
+                            optimize marketing campaigns to target the right market effectively.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <div class="section section_grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content" style="text-align:center;">
+                        <h2 class="innerheadertext">How is your Website Ranking?</h2>
+                        <p>Do you lose traffic to competitors, rank low in search engines and miss out on potential traffic?<br>
+                        Our in-depth website audits will help you understand how your site is measuring up in the search engines.</p>
+                        <br>  
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="content" style="text-align:center;">
+                        <img src="assets/img/counterwide.png" alt="In-depth Site and Counter Statistics">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div class="section" style="padding-bottom:0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content_left animatein fromleft">
+                        <h2 class="innerheadertext">Great Customer Service</h2>
+                        <p>Get personalized support from our team.&nbsp;  We have your best interest in mind and our goal is to personalize your digital experience.&nbsp; 
+                            We provide excellent digital marketing results with professional, friendly and positive service.</p>
+                        <p> Feel free to stop by our office for a coffee or call us for any and all online marketing solutions. </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="content_right animatein fromright">
+                        <div class="imagewrap"><img src="assets/img/domainsupport.png" alt="Bravenet has Fantastic Support"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div> 
+    <div class="section section_blue2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content animatein grow" style="text-align: center;">
+                        <h2 class="innerheadertext">Let's meet!</h2>
+                        <p>We would be happy to work with you to develop your perfect online marketing strategy. </p>
+                        <div class="largebutton"><a href="contactus.php" class="btn btn-lg btn-info hvr-rectangle-out">Contact Us Today</a></div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+      
+
+
+
+    <div class="section footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="content">
+                        
+                        <ul>
+                        <li><div class="footertitle">CONTACT</div></li>
+                        
+                        <li><i class="material-icons">phone</i>Phone: <a rel="nofollow" href="tel:+234-803-801-7249">0803-801-7249</a></li>
+                        <li><i class="material-icons">email</i>Email: <a class="footerlink" href="contactus.php">Contact Form</a></li>
+                        <li><i class="material-icons">location_on</i>Address:<br>
+                            <div class="address">Suite 100<br>
+                        Our street<br>
+                        <a style="color:#fff;" href="parksville_website_design_services.php">Old goverment house</a><br>
+                        city, state</div></li>
+                        <li><a class="footerlink" href="aboutbravenet.php">DEVELOPER OPTION</a></li>
+                        <br>
+                        <li>Serving <a style="color:#fff;" href="parksville_website_design_services.php">Presco</a>, 
+                            <a style="color:#fff;" href="nanaimo_website_design_services.php">NYSC</a> SAED<br>CENTER
+                            <a style="color:#fff;" href="vancouver_island_website_design_services.php"></a>.
+                        </li>
+                       
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="content">
+                        <ul>
+                        <li><div class="footertitle">CREDITS</div></li>
+                        <li><a class="footerlink" href="website_design_services.php">Mrs Mercy bamai dauda</a></li>
+                        <li><a class="footerlink" href="online_marketing.php">Mr Wale (ICT HEAD)</a></li>
+                        <li><a class="footerlink" href="search_engine_success.php">CST INNOVATIVE Team 2022</a></li>
+                        <li><a class="footerlink" href="web_services.php">The Nysc ebonyi staff 2022</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="content">
+                        <div class="footerlogo"><a href="https://www.bravenet.com"><img src="assets/img/bravenet_white_logo.png" alt="Bravenet Logo"></a></div>
+                        <p>lorem ipsum
+
+                        </p>
+                        <p>&copy; 2022 - <a href="https://www.maoltech.com">CST INNOVATIVE</a></p>
+                        <!-- <p>
+                           <a href="https://www.facebook.com/bravenetwebservices/"><img class="socialicons" src="assets/img/facebook.png"></a>
+                           <a href="https://twitter.com/bravenet"><img class="socialicons" src="assets/img/twitter.png"></a>
+                        </p>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+
+    
+    <script src="assets/js/vendor/bootstrap/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/vendor/bootstrap/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
