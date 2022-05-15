@@ -119,7 +119,7 @@ footer{
         height: 48px;
         justify-content: space-between;
         padding: o 28px;
-        z-index: 999;
+        z-index: 9999;
     }
     .logo a{
         font-size: 0.9rem;
@@ -166,6 +166,10 @@ footer{
 
     .show{
         right: 0px;
+    }
+
+    .hide{
+        display: none;
     }
 }
 h1{
