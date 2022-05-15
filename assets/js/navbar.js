@@ -10,3 +10,4 @@ const navMenu = document.getElementById('nav-menu'),
  closeMenu.addEventListener('click', () =>{
     navMenu.classList.remove('show')
 });
+
