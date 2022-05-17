@@ -610,6 +610,11 @@ header.smaller .navbar {
 .sl-wrapper .sl-navigation button.sl-next, .sl-wrapper .sl-navigation button.sl-prev {
     font-size: 8rem!important;
 }
+.sl-wrapper .sl-close {
+    color: #fff!important;
+    font-size: 5rem!important;
+    z-index: 1100!important;
+}
 
 
 .footer {
@@ -897,7 +902,6 @@ a.hvr-shutter-out-horizontal.active:hover {
   left: 0;
   right: 0;
 }
-
  .active:before  {
   content: "";
   position: absolute;
@@ -934,6 +938,7 @@ a.hvr-shutter-out-horizontal.active:hover {
         
     
 #loginform {
+    z-index:999;
     display:none;
     position:fixed;
     top: 50%;
@@ -1337,7 +1342,17 @@ a.hvr-shutter-out-horizontal.active:hover {
         margin-top: 0;
         max-width: 90%;
     }
-
+    .sl-wrapper .sl-close {
+        right: 20px!important;
+        z-index: 1100!important;
+        margin-top: -23px!important;
+        font-size: 3.1rem!important;
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 50%;
+        width: 34px!important;
+        height: 34px!important;
+        line-height: 3.1rem!important;
+    }
     .sl-wrapper .sl-navigation button.sl-next, .sl-wrapper .sl-navigation button.sl-prev {
         font-size: 3rem!important;
     }
